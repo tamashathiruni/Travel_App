@@ -1,0 +1,116 @@
+.serchitem{
+    padding: 10px;
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.searchimg{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 8%;
+}
+
+.searchdes{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.searchdetails{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.searchtitle{
+    color: #2874A6;
+    font-size: 20px;
+}
+
+.searchdistance{
+    font-size: 12px;
+}
+
+.searchtaxi{
+    padding: 3px;
+    color: white;
+    background-color: green;
+    font-size: 12px;
+    width: max-content;
+    border-radius: 12px;
+}
+
+.searchsubtitle{
+    font-size: 12;
+    font-weight: bold;
+}
+
+.searchmoredetail{
+    font-size: 12px;
+}
+
+.searchcancel{
+    font-size: 12px;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 2px;
+}
+
+.searchcanceldes{
+    font-size: 12px;
+    color: green;
+}
+
+.searchrating{
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchrating>span{
+    font-weight: 500;
+}
+
+.searchrating>button{
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    border-color: blue;
+}
+
+searchrating>button:hover{
+    box-shadow: 0 0 2px 2px #2874A6;
+}
+
+.siDetaillTexts{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 5px;
+}
+
+.searchprice{
+    font-size: 24px;
+}
+
+.searchtaxefee{
+    color: rgb(117, 113, 113);
+    font-size: 12px;
+}
+
+.searchcheckbtn{
+    padding: 10px 5px;
+    color: white;
+    background-color: #2874A6;
+    border-color: #2874A6;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
